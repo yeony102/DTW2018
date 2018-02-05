@@ -1,0 +1,10 @@
+.DS_Store
+*.psd
+*.avi
+*.mkv
+*.mp4
+*.wav
+*.sketch
+blog
+Week01
+venv
