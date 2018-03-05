@@ -1,5 +1,4 @@
 import requests
-import subprocess #commandline
 from selenium import webdriver
 import os
 import time
@@ -39,5 +38,3 @@ for i, image in enumerate(images):
 	url = image.get_attribute('src')
 	savedname = 'pinterest/' + str(i) + '.jpg'
 	download_file(url, savedname)
-
-subprocess.call(['convert', 'pinterest/*.jpg', '-resize', '300x300', 'chrisvanallsburg.gif'])
